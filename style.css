@@ -29,7 +29,7 @@ a, a:hover, a:active, a:visited, a:focus {
 }
 
 .active {
-    color: #474c56 !important;
+    color: #feba24 !important;
     font-weight: 150%;
 }
 
@@ -61,7 +61,7 @@ section {
     width: 150%;
     z-index: -1;
     position: absolute;
-    background-color: #EEEFF1;
+    background-color: #feca57;
     border-top-left-radius:50%;
     border-top-right-radius:50%;
 }
@@ -119,7 +119,7 @@ header .flex-2 {
 }
 
 header .flex-2 img {
-    border: 25px solid #EEEFF1;
+    border: 25px solid #fec957ad;
     box-shadow:  0px 0px 12px #f5f6f7, 
              -5px -5px 12px #ffffff;
 }
@@ -130,7 +130,7 @@ header .flex-2 img {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #EEEFF1;
+    border: 1px solid #feba24;
 }
 
 nav {
@@ -167,12 +167,12 @@ nav {
     border-radius: 50%;
     bottom: -10px;
     left: calc(50% - 2px);
-    background-color: #474c56;
+    background-color: #feba24;
     display: none;
 }
 
 .menu a:hover {
-    color: #474c56;
+    color: #feba24;
 }
 
 .logo {
@@ -183,7 +183,7 @@ nav {
 }
 
 .logo-text {
-    color: #474c56;
+    color: #feba24;
     margin-left: 20px;
     font-weight: 800;
 }
@@ -369,7 +369,7 @@ header .tag {
     height: 80%;
     z-index: -1;
     left: -25%;
-    background-color: #EEEFF1;
+    background-color: #feca57;
     border-bottom-left-radius:50%;
     border-bottom-right-radius:50%;
 }
