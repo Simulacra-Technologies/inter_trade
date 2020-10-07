@@ -404,3 +404,38 @@ header .tag {
     display: inline-flex;
     float: left;
 }
+
+footer {
+    color: #c4c4c4;
+    padding: 20px;
+    bottom: 0px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    background-color: #28323C;
+}
+
+footer ul li a {
+    color: #c4c4c4 !important;
+}
+
+.signature {
+    left: 0;
+    font-size: 14px;
+    padding: 5px 20px;
+    position: absolute;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1C252E;
+    bottom: -10px;
+}
+.signature a {
+    color: #949494;
+}
+
+footer img {
+    margin: auto;
+}
