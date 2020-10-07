@@ -90,6 +90,7 @@ section {
     width: 98%;
     padding: 20px;
     padding-top: 80px !important;
+    padding-bottom: 40px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -355,4 +356,51 @@ header .tag {
     align-items: center;
     justify-content: center;
     border: 1px solid #517fd410;
+}
+
+#places {
+    position: relative;
+    text-align: justify;
+}
+
+#places-overlay {
+    position: absolute;
+    width: 150%;
+    height: 80%;
+    z-index: -1;
+    left: -25%;
+    background-color: #EEEFF1;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
+}
+
+.placeholder .flex-3 {
+    text-align: center;
+    height: 300px;
+    background-color: #FFF;
+    margin-top: 20px;
+    margin-left: 20px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06);
+}
+
+.placeholder .flex-3 img {
+    width: 100%;
+    height: 70%;
+}
+
+.placeholder .flex-3 p {
+    display: inline-block;
+    top: 17px;
+    position: relative;
+}
+
+.placeholder .icon {
+    position: relative;
+    left: 20px;
+    transform: scale(0.6);
+    display: inline-flex;
+    float: left;
 }
