@@ -29,7 +29,7 @@ a, a:hover, a:active, a:visited, a:focus {
 }
 
 .active {
-    color: #c56cf0 !important;
+    color: #2196f3 !important;
     font-weight: 150%;
 }
 
@@ -61,7 +61,7 @@ section {
     width: 150%;
     z-index: -1;
     position: absolute;
-    background-color: #c56cf0;
+    background-color: #2196f3;
     border-top-left-radius:50%;
     border-top-right-radius:50%;
 }
@@ -73,7 +73,7 @@ section {
     border-radius: 50%;
     left: -150px;
     top: -150px;
-    border: 1px solid #c56cf0;
+    border: 1px solid #2196f3;
 }
 
 .flex-2 {
@@ -119,7 +119,7 @@ header .flex-2 {
 }
 
 header .flex-2 img {
-    border: 25px solid #c56cf0ad;
+    border: 25px solid #2196f3ad;
     box-shadow:  0px 0px 12px #f5f6f7, 
              -5px -5px 12px #ffffff;
 }
@@ -130,7 +130,7 @@ header .flex-2 img {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #c56cf0;
+    border: 1px solid #2196f3;
 }
 
 nav {
@@ -167,12 +167,12 @@ nav {
     border-radius: 50%;
     bottom: -10px;
     left: calc(50% - 2px);
-    background-color: #c56cf0;
+    background-color: #2196f3;
     display: none;
 }
 
 .menu a:hover {
-    color: #c56cf0;
+    color: #2196f3;
 }
 
 .logo {
@@ -183,7 +183,7 @@ nav {
 }
 
 .logo-text {
-    color: #c56cf0;
+    color: #2196f3;
     margin-left: 20px;
     font-weight: 800;
 }
@@ -298,7 +298,7 @@ header .tag {
 .underline, .underline-center {
     display: block;
     height: 5px;
-    background-color: #c56cf0;
+    background-color: #2196f3;
     content: "";
     width: 50px;
     margin-top: 10px;
@@ -373,7 +373,7 @@ header .tag {
     height: 80%;
     z-index: -1;
     left: -25%;
-    background-color: #c56cf0;
+    background-color: #2196f3;
     border-bottom-left-radius:50%;
     border-bottom-right-radius:50%;
 }
