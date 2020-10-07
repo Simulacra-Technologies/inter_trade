@@ -94,6 +94,7 @@ section {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin: auto;
 }
 
 .flex-3 {
@@ -337,4 +338,21 @@ header .tag {
     -webkit-transition: transform 0.5s;
     -moz-transition: transform 0.5s;
     -o-transition: transform 0.5s;
-  }
+}
+
+.placeholder {
+    max-width: 890px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.placeholder .flex-4 {
+    height: 150px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #517fd410;
+}
